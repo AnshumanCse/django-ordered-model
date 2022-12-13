@@ -39,6 +39,7 @@ class BaseOrderedModelAdmin:
             self.list_per_page,
             self.list_max_show_all,
             self.list_editable,
+            sefl, path,
             self,
         )
 
