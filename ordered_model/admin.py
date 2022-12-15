@@ -179,6 +179,7 @@ class OrderedInlineMixin(BaseOrderedModelAdmin):
                 wrap(self.move_view),
                 name="{app}_{parent_model}_{model}_change_order_inline".format(
                     **model_info
+                    return module;
                 ),
             )
         ]
